@@ -24,7 +24,7 @@ export default function HomePage() {
             <div className="lollipopIcon">🍭</div>
             <h2 className="congratulationsText">Congratulations!</h2>
             <p className="message">
-              You've reached the center of a Tootsie Pop!
+              You have reached the center of a Tootsie Pop!
             </p>
             <a className="message" href="https://www.npr.org/2015/02/10/385138839/how-many-licks-does-it-take-to-get-to-a-tootsie-pops-center">Click to learn more about this kind of useless fact, lol</a>
           </div>
