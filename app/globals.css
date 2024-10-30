@@ -31,13 +31,13 @@ body, html {
   color: #ffffff;
   padding: 40px;
   border-radius: 10px;
-  width: 1200px;
+  width: 800px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .title {
-  font-size: 5em;
+  font-size: 4em;
   margin-bottom: 30px;
   background: linear-gradient(to right, #11151c, #364156);
   -webkit-background-clip: text;
@@ -51,7 +51,7 @@ body, html {
 }
 
 .countDisplay {
-  font-size: 20em;
+  font-size: 16em;
   color:#212d40;
 }
 
@@ -59,7 +59,7 @@ body, html {
   background-color: #364156;
   font-family: 'DynaPuff', cursive;
   color: #0d0a0b;
-  font-size: 3em;
+  font-size: 2em;
   padding: 15px 30px;
   border: none;
   border-radius: 5px;
@@ -94,7 +94,7 @@ body, html {
 }
 
 .congratulationsText {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   color: #f1f4fb;
   margin-bottom: 20px;
