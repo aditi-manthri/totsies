@@ -4,7 +4,7 @@ import "./globals.css";
 
 export default function HomePage() {
   const [count, setCount] = useState(0);
-  const maxCount = 1000;
+  const maxCount = 10;
 
   const incrementCounter = () => {
     if (count < maxCount) {
@@ -22,11 +22,9 @@ export default function HomePage() {
         {count >= maxCount && (
           <div className="overlay">
             <div className="lollipopIcon">🍭</div>
-            <h2 className="congratulationsText">Congratulations!</h2>
-            <p className="message">
-              You have reached the center of a Tootsie Pop!
-            </p>
-            <a className="message" href="https://www.npr.org/2015/02/10/385138839/how-many-licks-does-it-take-to-get-to-a-tootsie-pops-center">Click to learn more about this kind of useless fact, lol</a>
+            <h2 className="congratulationsText">Congratulations! You have reached the center of a Tootsie Pop!</h2>
+            <a className="message" href="https://www.npr.org/2015/02/10/385138839/how-many-licks-does-it-take-to-get-to-a-tootsie-pops-center">Click here to learn more about this kind of useless fact, lol</a>
+            <button className="actionButton" onClick={resetCounter}>Replay</button>
           </div>
         )}
 
@@ -37,11 +35,7 @@ export default function HomePage() {
           <button onClick={incrementCounter} className="actionButton">
             (c)lick
           </button>
-        ) : (
-          <button onClick={resetCounter} className="resetButton">
-            Reset
-          </button>
-        )}
+        ) : null}
       </div>
     </div>
   );
