@@ -4,7 +4,7 @@ import "./globals.css";
 
 export default function HomePage() {
   const [count, setCount] = useState(0);
-  const maxCount = 10;
+  const maxCount = 1000;
 
   const incrementCounter = () => {
     if (count < maxCount) {
