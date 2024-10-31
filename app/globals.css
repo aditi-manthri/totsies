@@ -9,6 +9,11 @@ body, html {
   background: linear-gradient(90deg, #9C4F96, #FF6355, #FBA949, #FAE442, #8BD448, #2AA8F2);
   background-size: 5000% 5000%;
   animation: candyGradient 20s ease infinite;
+  user-select: none;
+  -webkit-user-select: none; 
+  -moz-user-select: none;   
+  -ms-user-select: none; 
+  touch-action: none;
   cursor: pointer;
 }
 
@@ -115,4 +120,35 @@ body, html {
   color: #ffffff77;
   font-size: 250%;
   text-decoration: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  outline: none; 
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 150%;
+  }
+
+  .countDisplay {
+    font-size: 1000%;
+  }
+
+  .actionButton {
+    font-size: 100%; 
+  }
+
+  .congratulationsText {
+    font-size: 200%;
+  }
+
+  .message {
+    font-size: 150%; 
+  }
+
+  .message a {
+    font-size: 150%;
+  }
 }
